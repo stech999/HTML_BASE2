@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("./fonts/Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+}
+
+.center {
+    padding-right: calc(50% - 800px);
+    padding-left: calc(50% - 800px);
+}
+
+/*---beginning--- Header---*/
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    height: 75px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 41px;
+    margin-left: 231px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-left: 859px;
+}
+
+/*---END---Header---*/
+/*---beginning---brand---*/
+
+.brand {
+    display: flex;
+    background-color: #F1E4E6;
+    height: 764px;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    height: 92px;
+    width: 405px;
+    align-items: center;
+    gap: 16px;
+}
+
+.brand_text {
+    width: 377px;
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.LUXERIOUS_text {
+    display: flex;
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+.FASHION_text {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*---END---brand---*/
+/*---Beginning---content_offer---*/
+
+.content_offer{
+
+}
+
+.content_offer_groups{
+    
+}
+/*---END---content_offer---*/
